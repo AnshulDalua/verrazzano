@@ -28,6 +28,9 @@ func main() {
 	//configmap := &k8score.ConfigMap{}
 	//deployment := &k8sapps.Deployment{}
 	//serviceMonitor := &promoperapi.ServiceMonitopr{}
+	//services, deployment and annotations???
+	//annotations to prometheus scraper?
+	//where to use controller?
 
 	//Read OAM File
 	appData, err := ioutil.ReadFile("/Users/vrushah/GolandProjects/verrazzano/tools/oam-converter/helidon-config-app.yaml")
